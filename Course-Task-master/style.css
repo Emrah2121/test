@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  padding: 100px 200px;
+  font-family: Roboto, sans-serif;
+}
+
+main {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+main img {
+  width: 400px;
+  height: 400px;
+}
+
+main > div {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+main h1 {
+  font-size: 55px;
+}
+
+main .text {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+main .text p {
+  font-size: 22px;
+  line-height: 1.5;
+}
+
+section {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: auto;
+  margin-top: 80px;
+  gap: 50px;
+}
+
+section p {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: start;
+}
+
+section div {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+section span {
+  width: 50%;
+  font-size: 22px;
+}
+
+section img {
+  width: 250px;
+  height: 250px;
+}
+
+@media screen and (max-width: 830px) {
+  section img {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  main {
+    flex-direction: column;
+  }
+}
